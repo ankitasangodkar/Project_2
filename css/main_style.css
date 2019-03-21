@@ -15,11 +15,10 @@ body {
   justify-content: flex-end; }
 
 .header {
-  padding-top: 40rem;
-  padding-bottom: calc(10rem - 72px);
-  background: url("../images/bg-image.jpg") no-repeat 0 0;
+  background-size: cover;
   background-position: center;
-  background-size: cover; }
+  background: url("../images/bg-image.jpg") no-repeat 0 0;
+  height: 100vh; }
 
 .overlay {
   position: absolute;
@@ -85,7 +84,8 @@ body {
 .team {
   margin: 4em 0;
   position: relative; }
-  .team h1 {
+  .team S
+h1 {
     color: #f97300;
     margin: 2em; }
   .team .item {
@@ -93,8 +93,7 @@ body {
     text-align: center; }
   .team .des {
     background: #f97300;
-    color: #fff;
-   }
+    color: #fff; }
 
 .contact-form {
   margin: 6em 0;
