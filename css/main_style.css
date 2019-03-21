@@ -15,10 +15,13 @@ body {
   justify-content: flex-end; }
 
 .header {
-  background-size: cover;
-  background-position: center;
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
   background: url("../images/bg-image.jpg") no-repeat 0 0;
-  height: 100vh; }
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover; }
 
 .overlay {
   position: absolute;
