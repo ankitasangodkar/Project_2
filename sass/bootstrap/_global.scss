@@ -1,0 +1,81 @@
+@mixin place($m,$p){
+	margin:$m;
+	position:$p;
+}
+
+
+// Embedded Code
+
+//overlay styles
+.overlay{
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0,0,0,0.31);
+}
+.description{
+	position: absolute;
+	top:25%;
+	padding: 2em;
+	   @media screen and (max-width: $break-small){
+      top:20%;
+    }
+    h1{
+	color: #fff;
+    }
+    p{
+	color: #656565;
+	font-size: 18px;
+	width: 100%;
+	line-height: 1.5;
+    }
+
+}
+
+.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+    img{
+	height: 80%;
+	width: 100%;
+	border-radius: 50%;
+    }
+}
+.desc{
+	padding: 4em 2em;
+	border-left: 2px solid #000;
+}
+
+.portfolio{
+	@include place(2em 0,relative); //mixins
+
+    img{
+	width: 100%;
+	height: 15rem;
+	margin: 1em;
+    }
+}
+
+.blog{
+	@include place(2em 0,relative);  //mixins
+    img{
+	width: 100%;
+	height: 15rem;
+    }
+}
+
+.team {
+	@include place(4em 0,relative); //mixins
+   .item{
+	position: relative;
+	text-align: center;
+    }
+   .des{
+    background:#f97300;
+    color: #fff;
+    }
+}
+
