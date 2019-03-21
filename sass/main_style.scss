@@ -32,7 +32,8 @@ body {
     position: center;
     }
     background:url('../images/bg-image.jpg') no-repeat 0 0;
-    height:100vh;
+    padding-top:40rem;
+    padding-bottom: calc(10rem - 72px);
 }
 
 .overlay{
@@ -114,7 +115,6 @@ body {
 
 .team {
 	@include place(4em 0,relative); //mixins
-S
     h1{
 	color: #f97300;
 	margin: 2em;
