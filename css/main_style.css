@@ -32,7 +32,6 @@ body {
 .description {
   position: absolute;
   top: 30%;
-  margin: auto;
   padding: 2em; }
   .description h1 {
     color: #fff; }
@@ -86,8 +85,7 @@ body {
 .team {
   margin: 4em 0;
   position: relative; }
-  .team S
-h1 {
+  .team h1 {
     color: #f97300;
     margin: 2em; }
   .team .item {
@@ -96,7 +94,7 @@ h1 {
   .team .des {
     background: #f97300;
     color: #fff;
-    Stext-align: center; }
+   }
 
 .contact-form {
   margin: 6em 0;
